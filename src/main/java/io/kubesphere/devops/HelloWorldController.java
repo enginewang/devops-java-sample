@@ -21,4 +21,9 @@ public class HelloWorldController {
     public String ping() {
         return "pong";
     }
+
+    @RequestMapping("/hello")
+    public String hello() {
+        return "Hello World!";
+    }
 }
